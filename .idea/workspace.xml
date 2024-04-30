@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="226d8f8f-720f-4d7e-b226-94defe7ba6bb" name="Changes" comment="" />
+    <list default="true" id="226d8f8f-720f-4d7e-b226-94defe7ba6bb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ggzn/shell/ng.service" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ggzn/shell/nginit.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -24,7 +31,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\Development\maven\Repository_idea" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../Development/maven/apache-maven-3.6.3/" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../maven/apache-maven-3.6.3" />
         <option name="userSettingsFile" value="D:\Development\maven\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -34,7 +41,13 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectId" id="2fdJ6usFVVs3IKv6N5xGJMXtNlg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,6 +61,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Development/Code/Git/JenkinsTest",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,11 +69,25 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "spring.configuration.checksum": "2e54334c0a5ce2e3e5a5845df3ab3ada",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="JenkinsTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="JenkinsTest" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="Jenkins" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ggzn.jenkins.Main" />
@@ -89,10 +117,55 @@
       <updated>1714124850642</updated>
       <workItem from="1714124852100" duration="207000" />
       <workItem from="1714125069037" duration="1671000" />
+      <workItem from="1714382555719" duration="57000" />
+      <workItem from="1714382687689" duration="317000" />
+      <workItem from="1714383015043" duration="106000" />
+      <workItem from="1714383136208" duration="137000" />
+      <workItem from="1714383367510" duration="761000" />
+      <workItem from="1714384226705" duration="222000" />
+      <workItem from="1714384459311" duration="1004000" />
+      <workItem from="1714443503839" duration="1000" />
+      <workItem from="1714443726810" duration="284000" />
+      <workItem from="1714444019922" duration="3033000" />
     </task>
+    <task id="LOCAL-00001" summary="添加忽略文件">
+      <created>1714444825522</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714444825523</updated>
+    </task>
+    <task id="LOCAL-00002" summary="生效.gitignore">
+      <created>1714444927940</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714444927940</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加忽略文件" />
+    <MESSAGE value="生效.gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="生效.gitignore" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ggzn/jenkins/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
