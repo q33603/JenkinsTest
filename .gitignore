@@ -5,10 +5,10 @@
 .classpath            # Eclipse 的类路径文件
 .project              # Eclipse 的项目描述文件
 .settings/            # Eclipse 的项目设置目录
-bin/                  # 编译后的输出目录
-tmp/                  # 临时文件
-target/               # Maven 或 Gradle 的默认构建输出目录
-out/                  # Eclipse 的编译输出目录
+bin                  # 编译后的输出目录
+tmp                  # 临时文件
+target               # Maven 或 Gradle 的默认构建输出目录
+out                  # Eclipse 的编译输出目录
 
 # Maven 和 Gradle 相关
 mvnw                  # Maven Wrapper 可执行文件
