@@ -1,0 +1,62 @@
+# IntelliJ IDEA 文件
+.idea/                # IntelliJ IDEA 的项目配置目录
+*.iml                 # IntelliJ IDEA 模块文件
+*.iws                 # 工作区文件
+*.id                  # 可能是遗留下来的旧版IntelliJ文件，通常不再使用
+
+# Eclipse IDE 文件
+.classpath            # Eclipse 的类路径文件
+.project              # Eclipse 的项目描述文件
+.settings/            # Eclipse 的项目设置目录
+bin/                  # 编译后的输出目录
+tmp/                  # 临时文件
+target/               # Maven 或 Gradle 的默认构建输出目录
+out/                  # Eclipse 的编译输出目录
+
+# Maven 和 Gradle 相关
+mvnw                  # Maven Wrapper 可执行文件
+mvnw.cmd               # Windows下的Maven Wrapper命令
+.gradle/               # Gradle 的用户目录
+build/                 # Maven 或 Gradle 的构建输出目录
+dependency-cache/      # 可能是Gradle的依赖缓存目录
+gradle-wrapper.jar     # Gradle Wrapper JAR
+gradlew                # Gradle Wrapper的bash脚本
+gradlew.bat            # Gradle Wrapper的Windows批处理文件
+
+# 编译后的类文件
+*.class                # Java编译后的字节码文件
+
+# 日志文件
+*.log                  # 日志文件
+*.log.*                # 所有以.log为基名的日志文件
+
+# 缓存文件
+*.cache                # 通用的缓存文件
+*.indexes              # 可能是索引文件
+
+# 系统文件
+.DS_Store              # macOS 下的系统隐藏文件
+-Thumbs.db             # Windows 图片预览文件
+
+# IDE 具体文件
+*.idea/*               # IntelliJ IDEA 更具体的配置文件，这里使用通配符避免忽略整个目录
+*.swp                  # Vim 的临时文件
+*.swo                  # IntelliJ IDEA 的旧版临时文件
+*.stackdump            # Java 栈转储文件
+
+# 忽略构建工具生成的文件
+*.jar.original         # 原始的未处理JAR文件
+*.war.original         # 原始的未处理WAR文件
+
+# Docker 相关
+docker-compose.yml     # Docker Compose 配置文件
+Dockerfile*            # Dockerfile 及其备份
+
+# 其他
+npm-debug.log*         # npm 错误日志
+yarn-debug.log*        # Yarn 错误日志
+yarn-error.log*        # Yarn 错误日志
+.pmd                   # PMD静态代码分析文件
+.checkstyle            # Checkstyle 配置或报告文件
+*.hprof                # Java剖析文件
+*.jfr                  # Java Flight Recorder 文件
